@@ -1,0 +1,157 @@
+/*global goes here*/
+* {
+	font-family: 'Alegreya', serif;
+}
+body {
+	font-size: 20px;
+}
+
+/*global goes here*/
+
+/*navigation goes here*/
+.navbar-nav > li > a {
+	color: #fff;
+	font-weight: bolder;
+	font-size: 1.5rem;
+	padding-right: 20px;
+}
+
+/*navigation goes here*/
+
+/*bannar run here*/
+#bannar img {
+	width: 1170px;
+	height: 660px;
+}
+#bannar{
+	position: relative;
+}
+.bannar-child {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	color: #fff;
+}
+.bannar-child h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bolder;
+}
+#bannar .bannar-child .btn {
+	font-weight: bolder;
+	font-size: 1.8rem;
+	border-radius: 19px;
+}
+.bannar-child2 {
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	transform: translate(-50%,50%);
+}
+.bannar-child2 .btn {
+	background-color: #f2eadf;	
+	border: none;
+	border-radius: 15px;
+}
+.bannar-child2 .btn a {
+	color: #111111;
+}
+/*bannar end here*/
+
+/*what section*/
+hr {
+	width: 10%;
+	border: 1px solid #207b20;
+}
+#what .row {
+	margin-top: 30px;
+}
+.thumbnail {
+	border: none;
+
+}
+.thumbnail .fa {
+	background-color: #e1f3e1;
+	padding: 20px;
+	border-radius: 15px;
+	color: #54d154;
+
+}
+.thumbnail .btn-primary {
+	background-color: #54d154;
+	color: #fff;
+	border: none;
+	border-radius: 14px;
+}
+/*what section*/
+
+/*work goes here*/
+#work {
+	background-color: #54d154;
+	color: #207b20
+}
+#work .child3 {
+	padding-top: 20px;
+}
+#work .child4 {
+	border-radius: 20px;
+}
+#work .btn-group .btn {
+	color: #54d154;
+	font-weight: bolder;
+}
+#work .btn-group .btn-success {
+	background-color: #2b9b2b;
+	color: #fff;
+}
+#work .row{
+	margin-top: 25px;
+}
+#work .child5 .btn {
+	margin: 30px 0;	
+	background-color: #2b9b2b;
+}
+#work .child5 .btn a {	
+	color: #fff;
+}
+/*work goes here*/
+
+/*Testimonial goes here*/
+#Testimonial {
+	position: relative;
+}
+#Testimonial .child6 {
+	margin-top: 30px;
+}
+
+.carousel-control.right {
+	background-image: none;
+	color: #e0dfdf;
+}
+.carousel-control.left {
+	background-image: none;
+	color: #e0dfdf;
+}
+#Testimonial .one p {
+	color: #ccc9c9;
+}
+.carousel p {
+	font-family: 'Libre Baskerville', serif;
+}
+.img1 {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,30%);
+}
+/*Testimonial goes here*/
+
+/*client goes*/
+ #client {
+ 	margin-top: 100px;
+ 	background-color: #f2f1f1;
+ }
+ #client .childa h2 {
+ 	padding-top: 10px;
+ }
+ /*client goes*/
